@@ -43,8 +43,8 @@ public class MainWindow extends JFrame {
         startButton_.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                dimX_ = 2000;
-                dimY_ = 2000;
+                dimX_ = 20;
+                dimY_ = 20;
                 initScrollPanel();
                 System.out.println("me has pulsado");
             }
